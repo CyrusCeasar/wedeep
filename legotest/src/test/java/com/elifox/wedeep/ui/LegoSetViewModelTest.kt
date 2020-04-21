@@ -1,8 +1,8 @@
 package com.elifox.wedeep.ui
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
-import com.elifox.wedeep.legoset.data.LegoSetRepository
-import com.elifox.wedeep.legoset.ui.LegoSetsViewModel
+import com.zhixin.wedeep.legotest.legoset.data.LegoSetRepository
+import com.zhixin.wedeep.legotest.legoset.ui.LegoSetsViewModel
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import org.hamcrest.CoreMatchers.notNullValue

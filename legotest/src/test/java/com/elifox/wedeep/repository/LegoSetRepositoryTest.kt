@@ -2,9 +2,10 @@ package com.elifox.wedeep.repository
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import com.zhixin.wedeep.legotest.LegoDatabase
-import com.elifox.wedeep.legoset.data.LegoSetDao
-import com.elifox.wedeep.legoset.data.LegoSetRemoteDataSource
-import com.elifox.wedeep.legoset.data.LegoSetRepository
+import com.zhixin.wedeep.legotest.LegoService
+import com.zhixin.wedeep.legotest.legoset.data.LegoSetDao
+import com.zhixin.wedeep.legotest.legoset.data.LegoSetRemoteDataSource
+import com.zhixin.wedeep.legotest.legoset.data.LegoSetRepository
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.runBlocking

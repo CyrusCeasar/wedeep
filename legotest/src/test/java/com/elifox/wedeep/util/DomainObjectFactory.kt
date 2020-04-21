@@ -1,6 +1,6 @@
 package com.elifox.wedeep.util
 
-import com.elifox.wedeep.legoset.data.LegoSet
+import com.zhixin.wedeep.legotest.legoset.data.LegoSet
 
 object DomainObjectFactory {
 

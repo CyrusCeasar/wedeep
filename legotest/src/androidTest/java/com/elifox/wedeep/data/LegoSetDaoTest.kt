@@ -2,11 +2,11 @@ package com.elifox.wedeep.data
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import com.elifox.wedeep.legoset.data.LegoSetDao
 import com.elifox.wedeep.util.getValue
 import com.elifox.wedeep.util.legoThemeId
 import com.elifox.wedeep.util.testLegoSetA
 import com.elifox.wedeep.util.testLegoSetB
+import com.zhixin.wedeep.legotest.legoset.data.LegoSetDao
 import kotlinx.coroutines.runBlocking
 import org.hamcrest.Matchers.equalTo
 import org.junit.Assert.assertThat

@@ -11,7 +11,7 @@ android {
     dataBinding {
         enabled = true
     }
-
+    android.defaultConfig.vectorDrawables.useSupportLibrary = true
     defaultConfig{
         javaCompileOptions {
             annotationProcessorOptions {
